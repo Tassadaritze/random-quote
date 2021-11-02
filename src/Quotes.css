@@ -1,0 +1,30 @@
+div#quote-box {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #600B22;
+    position: relative;
+    top: 10vh;
+    height: 500px;
+    max-height: 70vh;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+div#quote-actions {
+    display: flex;
+    column-gap: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+p {
+    font-size: 2rem;
+    color: #FF2EFF;
+}
